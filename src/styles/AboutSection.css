@@ -1,0 +1,72 @@
+.aboutsection-container {
+    padding: 10em 0;
+}
+
+.aboutsection-text-container > * {
+    text-align: center;
+}
+
+.aboutsection-text-container > h1 {
+    line-height: 110%;
+    font-size: 3em;
+    letter-spacing: -5%;
+}
+
+.aboutsection-subtext-container > p {
+    font-family: Poppins-Regular;
+    font-size: 1rem;
+}
+
+.aboutsection-text-container > h1:nth-child(1) {
+    font-family: Poppins-Medium;
+}
+
+.aboutsection-text-container > h1:nth-child(2) {
+    color: #2f5ab3;
+    font-family: Poppins-SemiBold;
+}
+
+.aboutsection-subtext-container > p:nth-child(1) {
+    margin-top: 2em;
+}
+
+.aboutsection-card-images {
+    aspect-ratio: 1/1;
+    width: 4.175em;
+    padding-bottom: 1em;
+}
+
+.aboutsection-card-container {
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    background-color: #2f5ab3;
+    padding: 3em 2.5em;
+    border-radius: 1em;
+}
+
+.aboutsection-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5em;
+    gap: 3em;
+}
+
+.aboutsection-card-title {
+    font-family: Poppins-Medium;
+    letter-spacing: -5%;
+    line-height: 100%;
+    color: #ffffff;
+    border-top: 0.1em solid #ffffff;
+    padding: 0.5em 0;
+    font-size: 1.575rem;
+}
+
+.aboutsection-card-subtext {
+    font-family: Poppins-Regular;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 110%;
+    font-weight: normal;
+}

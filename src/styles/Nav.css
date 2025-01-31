@@ -1,0 +1,32 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    aspect-ratio: 1/1;
+    width: 5em;
+    margin-left: 5em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.nav-list {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-list > li {
+    list-style: none;
+}
+
+.nav-services,
+.nav-reviews {
+    margin-right: 3em;
+}
+
+.nav-contactus {
+    margin-right: 5em;
+}

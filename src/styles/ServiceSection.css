@@ -1,0 +1,80 @@
+.servicesection-text-container {
+    background-color: #2f5ab3;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.servicesection-text-container > h1 {
+    color: #ffffff;
+    font-family: Poppins-SemiBold;
+    font-size: 3rem;
+    letter-spacing: -5%;
+    line-height: 100%;
+}
+
+.servicesection-text-container > h6 {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: -5%;
+}
+
+.servicesection-cards-container {
+    display: grid;
+    grid-template-areas:
+        "area1 area2 area3"
+        ".     area4 .";
+    column-gap: 2em;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+.servicesection-card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 25vw;
+    padding: 1em 2.5em;
+}
+
+.servicesection-card-images {
+    aspect-ratio: 1/1;
+    width: 15.175em;
+    padding-bottom: 1em;
+}
+
+.servicesection-card-container:nth-child(1) {
+    grid-area: area1;
+}
+
+.servicesection-card-container:nth-child(2) {
+    grid-area: area2;
+}
+
+.servicesection-card-container:nth-child(3) {
+    grid-area: area3;
+}
+
+.servicesection-card-container:nth-child(4) {
+    grid-area: area4;
+}
+
+.servicesection-card-title {
+    font-family: Poppins-Medium;
+    letter-spacing: -5%;
+    line-height: 100%;
+    color: #030b1c;
+    border-top: 0.1em solid #2f5ab3;
+    padding: 0.5em 0;
+    font-size: 1.575rem;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.servicesection-card-subtext {
+    font-family: Poppins-Regular;
+    color: #030b1c;
+    font-size: 1rem;
+    line-height: 110%;
+    font-weight: normal;
+}
